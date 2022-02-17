@@ -18,13 +18,14 @@ img {
 /* Desktop */
 
 h1 {
-  color: gold;
+  color: rgb(49, 6, 245);
   font-size: 4rem;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   grid-column: 1/-1;
   text-shadow: 2px 2px 0.5px black;
   letter-spacing: 0.313rem;
+  font-weight: 300;
 }
 
 #principal {
@@ -44,6 +45,9 @@ h1 {
   gap: 1rem;
   align-content: start;
   justify-content: center;
+  background: lightcoral;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 /* Media Queries */

@@ -8,7 +8,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/aula.min.css">
+  <link rel="stylesheet" href="css/aula.css">
   <title>Document</title>
 </head>
 
@@ -26,6 +26,32 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni facere aperiam eaque, exercitationem possimus neque natus porro similique reprehenderit! Voluptate animi voluptatum ut velit amet molestiae tenetur asperiores mollitia autem!</p>
     </article>
   </main>
+
+
+  <div class="formulario">
+    <form action="aula.html" method="get">
+
+      <label for="nome">Nome:</label>
+      <input type="text" name="nome" id="nome" required>
+
+      <label for="senha">Senha:</label>
+      <input type="password" name="senha" id="senha" required>
+
+      <label for="email">E-Mail:</label>
+      <input type="email" name="email" id="email" disabled>
+
+      <label for="idade">Idade:</label>
+      <input type="number" name="idade" id="idade" placeholder="Digite a sua idade">
+
+      <label for="cpf">CPF:</label>
+      <input type="text" name="cpf" id="cpf" placeholder="000.000.000-00" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" \title="Cpf são 11 digitos">
+
+      <button>Enviar</button>
+
+
+
+    </form>
+  </div>
 
 </body>
 
